@@ -1,0 +1,55 @@
+.top-navbar{
+    background-color: rgb(124, 197, 124);
+    max-width: 100%;
+    max-height: 70px;
+}
+.nav-header{
+    display: inline-block;
+}
+.heading-2{
+    margin-left: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+.main-container{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    background-color:rgb(211, 211, 225);
+    /* border: 1px solid black; */
+    margin: 20px 20px 20px 20px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(146, 141, 141);
+}
+.tracker-cards{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 200px 20px 100px ;
+}
+/* .heading-4-1,.heading-4-2,.heading-4-3,.heading-4-4{
+    font-size: 20px;
+    color: green;
+} */
+.heading-4-1{
+    color: black;
+    font-size: 20px;
+    margin: 0px 50px 0px 20px
+}
+.heading-4-2 {
+    color: green;
+    font-size: 20px;
+    margin: 0px 50px 0px 20px
+}
+.heading-4-3 {
+    color: red;
+    font-size: 20px;
+    margin: 0px 50px 0px 20px
+}
+.heading-4-4 {
+    color: blue;
+    font-size: 20px;
+    margin: 0px 50px 0px 20px
+}
+

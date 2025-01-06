@@ -1,8 +1,14 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
+import Trackerdashboard from "./components/Trackerdashboard";
+import Table from "./components/Table";
 function App()
 {
-  return <h1>Hello World</h1>
+  return <div>
+    <Navbar/>
+    <Trackerdashboard/>
+    <Table/>
+  </div>
 }
 
 export default App;
