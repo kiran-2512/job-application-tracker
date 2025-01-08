@@ -3,7 +3,7 @@ import "../index.css"
 import "./Table.css"
 import {BsFillTrashFill,BsFillPencilFill} from "react-icons/bs"
 
-const Table = () => {
+const Table = ({rows}) => {
   return (
     <div className='table-box'>
       <table className='table'>
@@ -17,7 +17,12 @@ const Table = () => {
                 <th>Actions</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody >
+        {
+            rows.map((row,idx)=>{
+                return <tr key = {idx}></tr>
+            })
+        }
             <tr>
               <td>1</td>
             <td className='table-data-company-name'>AMD</td>
